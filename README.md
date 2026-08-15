@@ -45,6 +45,7 @@ The instruction execution cycle contains the 5 stages in order:
 
 ## Verilog Design Code
 ```verilogmodule mips_top(
+module mips_top(
     input clk,
     input rst,
     output [31:0] pc,
